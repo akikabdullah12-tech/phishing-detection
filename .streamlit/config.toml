@@ -1,0 +1,11 @@
+# Keep the app on the light theme so the custom colours in frontend/styles.css
+# stay readable even when the visitor's browser is set to dark mode.
+[theme]
+base = "light"
+primaryColor = "#1C5D7A"
+backgroundColor = "#F3F5F6"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#14202B"
+
+[browser]
+gatherUsageStats = false
