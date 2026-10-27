@@ -1,0 +1,18 @@
+{
+    "project": "Phishing Detection Using Machine Learning",
+    "module": "Email Phishing Classification",
+    "best_model": "Support Vector Machine",
+    "selection_metric": "F1 Score",
+    "accuracy": 0.9844938560561732,
+    "precision": 0.9767621998450813,
+    "recall": 0.9820872274143302,
+    "f1_score": 0.9794174757281553,
+    "roc_auc": 0.9984814178980284,
+    "cross_validation_mean_f1": 0.9719657810739841,
+    "cross_validation_f1_std": 0.005255540674078602,
+    "training_records": 13669,
+    "testing_records": 3418,
+    "tfidf_features": 10000,
+    "safe_email_label": 0,
+    "phishing_email_label": 1
+}

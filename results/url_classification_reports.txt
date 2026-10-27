@@ -1,0 +1,65 @@
+============================================================
+Logistic Regression
+============================================================
+                precision    recall  f1-score   support
+
+Legitimate URL       0.30      1.00      0.46       276
+  Phishing URL       1.00      0.89      0.94      5802
+
+      accuracy                           0.89      6078
+     macro avg       0.65      0.94      0.70      6078
+  weighted avg       0.97      0.89      0.92      6078
+
+
+============================================================
+Decision Tree
+============================================================
+                precision    recall  f1-score   support
+
+Legitimate URL       0.47      0.97      0.63       276
+  Phishing URL       1.00      0.95      0.97      5802
+
+      accuracy                           0.95      6078
+     macro avg       0.73      0.96      0.80      6078
+  weighted avg       0.97      0.95      0.96      6078
+
+
+============================================================
+Random Forest
+============================================================
+                precision    recall  f1-score   support
+
+Legitimate URL       0.44      0.97      0.60       276
+  Phishing URL       1.00      0.94      0.97      5802
+
+      accuracy                           0.94      6078
+     macro avg       0.72      0.96      0.78      6078
+  weighted avg       0.97      0.94      0.95      6078
+
+
+============================================================
+Support Vector Machine
+============================================================
+                precision    recall  f1-score   support
+
+Legitimate URL       0.37      1.00      0.53       276
+  Phishing URL       1.00      0.92      0.96      5802
+
+      accuracy                           0.92      6078
+     macro avg       0.68      0.96      0.75      6078
+  weighted avg       0.97      0.92      0.94      6078
+
+
+============================================================
+XGBoost
+============================================================
+                precision    recall  f1-score   support
+
+Legitimate URL       0.48      0.98      0.64       276
+  Phishing URL       1.00      0.95      0.97      5802
+
+      accuracy                           0.95      6078
+     macro avg       0.74      0.97      0.81      6078
+  weighted avg       0.98      0.95      0.96      6078
+
+
